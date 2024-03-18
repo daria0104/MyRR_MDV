@@ -1,0 +1,22 @@
+Git cheat sheet that outlines some basic Git commands for common operations. Here's a breakdown of the commands:
+
+Git Configurations:
+
+$ git config --global user.name "FirstName LastName": Sets your global Git username to "FirstName LastName".
+$ git config --global user.email "your-email@email-provider.com": Sets your global Git email address.
+$ git config --global color.ui true: Enables colored output in the Git terminal.
+$ git config --list: Lists all your current Git configurations.
+Git: Starting a Repository
+
+$ git init: Initializes a new Git repository in the current directory.
+$ git status: Shows the status of your Git repository, including any untracked or modified files.
+Git: Staging Files
+
+$ git add <file-name>: Adds a specific file to the staging area for the next commit.
+$ git add <file-name1> <another-file-name2> <yet-another-file-name3>: Adds multiple files to the staging area at once.
+$ git add .: Adds all tracked files in the current directory to the staging area. (Use with caution!)
+$ git add --all: Adds all tracked files in the current directory and all subdirectories to the staging area. (Use with caution!)
+$ git add -A: Adds all tracked and untracked files in the current directory to the staging area. (Use with extreme caution!)
+$ git rm --cached <file-name>: Removes a file from the staging area for the next commit.
+$ git reset <file-name>: Removes a file from the working directory and the staging area. (Use with caution! This discards any uncommitted changes!)
+Note: These are just a few basic Git commands. There are many other commands available for more complex operations.  I hope this is helpful!
